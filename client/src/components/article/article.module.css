@@ -1,26 +1,31 @@
-.article {
-    background-color: white;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-    overflow: hidden;
-  }
-  
-  .image {
-    width: 100%;
-    height: 12rem;
-    object-fit: cover;
-  }
-  
-  .content {
-    padding: 1.5rem;
-  }
-  
-  .title {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-  }
-  
-  .text {
-    color: rgb(75 85 99);
-  }
+section {
+  background-color: tomato;
+}
+
+
+/* .article {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+}
+
+.content {
+  padding: 1.5rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.text {
+  color: rgb(75 85 99);
+} */

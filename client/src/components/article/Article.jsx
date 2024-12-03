@@ -1,16 +1,19 @@
 import style from "./Article.module.css";
-// nomSoins, image, difficulte
-export default function Article() {
+import { Link } from "react-router-dom";
+
+export default function Article({ remedy }) {
+
 	return (
-		// <section>
-		// 	<article>
-		// 		<h2> {nomSoins} </h2>
-		// 		<figure>
-		// 			<img src={image} alt={`illustration de ${nomSoins}`} />
-		// 		</figure>
-		// 		<p>{difficulte}</p>
-		// 	</article>
-		// </section>
-		<p>je suis un article</p>
+		<section>
+			<Link to={`/details/${remedy.id}`}>
+				<article>
+					<h2> {remedy.nomSoin} </h2>
+					<figure>
+						<img src={remedy.image} alt={`illustration de ${remedy.nomSoins}`} />
+					</figure>
+					<p>{remedy.difficulte}</p>
+				</article>
+			</Link>
+		</section >
 	);
 }

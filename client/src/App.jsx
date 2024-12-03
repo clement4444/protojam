@@ -1,7 +1,7 @@
 import "./App.css";
 import HomePage from "./pages/homePage/HomePage";
-import './App.css';
-import HomePage from './pages/HomePage/HomePage';
+import "./App.css";
+import HomePage from "./pages/HomePage/HomePage";
 
 export default function App() {
 	return (
@@ -9,11 +9,4 @@ export default function App() {
 			<HomePage />
 		</>
 	);
-function App() {
-
-  return (
-    <>
-      <HomePage />
-    </>
-  )
 }
