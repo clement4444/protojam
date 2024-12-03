@@ -1,15 +1,28 @@
 const express = require('express');
 const cors = require('cors');
-const data = require('./data.json');
+//importer les données
+const ingredients = require('./data/ingredients.json');
+const pains = require('./data/pains.json');
+const remedies = require('./data/remedies.json');
 
 const app = express();
 
 //cors pour autoriser les requêtes de n'importe quel domaine
 app.use(cors());
 
-app.get("/data", (req, res) => {
+//ingredients
+app.get("/ingredients", (req, res) => {
+    res.json(ingredients);
+});
 
-    res.json(data);
+//pain
+app.get("/pains", (req, res) => {
+    res.json(pains);
+});
+
+//remedies
+app.get("/remedies", (req, res) => {
+    res.json(remedies);
 });
 
 app.get('/', (req, res) => {
