@@ -2,7 +2,8 @@
     {
         "id": 1,
         "maux": [
-            101
+            101,
+            102
         ],
         "nomSoin": "Gel apaisant pour brûlures",
         "image": "https://picsum.photos/500",
