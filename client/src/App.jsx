@@ -1,15 +1,10 @@
-import './App.css';
-import HomePage from './pages/HomePage/HomePage';
-//import { useData } from './context/ApiContext';
+import "./App.css";
+import HomePage from "./pages/homePage/HomePage";
 
-function App() {
-  //const { ingredients, pains, remedies } = useData();
-
-  return (
-    <>
-      <HomePage />
-    </>
-  )
+export default function App() {
+	return (
+		<>
+			<HomePage />
+		</>
+	);
 }
-
-export default App
