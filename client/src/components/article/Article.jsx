@@ -1,10 +1,16 @@
 import style from "./Article.module.css";
 
-const Article = () => {
+function Article(nomSoins,image,difficulte){
     return (
-        <div>
-
-        </div>
+        <section> 
+        <article> 
+        <h2> {nomSoins} </h2>
+        <figure> 
+        <img src={image} alt={`illustration de ${nomSoins}`}/>
+        </figure>
+        <p>{difficulte}</p>
+        </article>
+        </section>
     );
 };
 
