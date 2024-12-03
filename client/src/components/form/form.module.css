@@ -1,0 +1,9 @@
+.Solution {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+textarea[name="description"] {
+	height: 50px;
+}
