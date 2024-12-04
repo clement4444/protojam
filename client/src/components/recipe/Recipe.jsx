@@ -12,6 +12,7 @@ const Recipe = () => {
 		return <p>Loading...</p>;
 	}
 
+
 	// Trouver l'index de la recette correspondante par son id
 	const index = remedies.findIndex((el) => el.id === Number.parseInt(id));
 
@@ -33,8 +34,10 @@ const Recipe = () => {
 				</div>
 			</div>
 			<div className={style.section}>
+
 				{recipe.ingredients.map((ingredient) => (
 					<div key={ingredient.id}>
+
 						<img
 							src={ingredient.imageIngredient}
 							alt={ingredient.nomIngredient}

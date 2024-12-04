@@ -30,7 +30,8 @@ const Form = () => {
 	// Gestion de la soumission du formulaire
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		const { category, product, description, use, location } = formSolution;
+		const { catégorie, produit, description, utilisation, localisation } =
+			formSolution;
 		const emailSubject = "New Solution Submission";
 		const emailText = `Category: ${catégorie}\nProduct: ${produit}\nDescription: ${description}\nUse: ${utilisation}\nLocation: ${localisation}`;
 		const email = "your-email@example.com";
@@ -53,8 +54,12 @@ const Form = () => {
 		<div className={styles.Solution}>
 			<div className="Title">
 				<h2>Formulaire de nouvelle solution</h2>
+				<p>
+					Remplissez le formulaire ci-dessous pour soumettre une nouvelle
+					solution.
+				</p>
 			</div>
-			<div className="Description">
+			<div className={styles.container}>
 				<form onSubmit={handleSubmit}>
 					{formPainting.map((Solution) => (
 						// Affichage des champs du formulaire
@@ -80,6 +85,7 @@ const Form = () => {
 									onChange={handleChange}
 									placeholder={`Entrer ${Solution}`}
 									required
+									className={styles.input}
 								/>
 							)}
 						</div>

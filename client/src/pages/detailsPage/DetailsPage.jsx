@@ -4,7 +4,9 @@ import Recipe from "../../components/recipe/Recipe";
 import Form from "../../components/form/Form";
 import { useData } from "../../context/ApiContext";
 
+
 export default function DetailsPage() {
+
 	const { remedies, Loading, pains, dataError } = useData();
 
 	function afficherRecopie() {
@@ -44,3 +46,4 @@ export default function DetailsPage() {
 		);
 	}
 }
+

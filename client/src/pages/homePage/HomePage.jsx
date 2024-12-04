@@ -14,11 +14,11 @@ export default function HomePage() {
 		//en cas de chargement des données
 		if (pains === null || remedies === null || Loading) {
 			return (
-				<div className={style.loader} >
-					<div className={style.spinner}></div>
+				<div className={style.loader}>
+					<div className={style.spinner} />
 					<p>chargement ...</p>
-				</div >
-			)
+				</div>
+			);
 		}
 
 		return <Shop />;
@@ -39,12 +39,10 @@ export default function HomePage() {
 					</p>
 				</div>
 			</div>
-			return (
 			<main className={style.main}>
 				{afficherShop()}
 				<Form />
 			</main>
-			);
 		</div>
 	);
 }
