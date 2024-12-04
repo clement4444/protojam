@@ -5,6 +5,10 @@
     --pilleHeightMobile: 35vw;
 }
 
+* {
+    box-sizing: content-box;
+}
+
 .container404 {
     background-image: url("/images/image404.jpg");
     background-size: cover;
