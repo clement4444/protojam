@@ -1,18 +1,24 @@
 .contenerRecipe {
-    background-color: rgb(159, 159, 159);
-    display: flex;
-    flex-direction: column;
-    padding: 2em;
-    border-radius: 25px;
-    border: black 3px solid;
-    margin: 100px;
-    gap: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+	padding: 2rem;
+	background-color: white;
+	color: rgb(75 85 99);
 }
 
 .section {
-    background-color: rgb(46, 43, 43);
-    border-radius: 25px;
-    border: black 3px solid;
-    min-height: 7em;
-    padding: 1em;
+	background-color: white;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imageRecipe {
+	width: 100px;
+}
+
+.imageIng {
+	width: 100px;
 }
