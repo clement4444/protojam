@@ -2,18 +2,21 @@ import style from "./Article.module.css";
 import { Link } from "react-router-dom";
 
 export default function Article({ remedy }) {
-
 	return (
-		<section>
+		<section className={style.section}>
 			<Link to={`/details/${remedy.id}`}>
-				<article>
-					<h2> {remedy.nomSoin} </h2>
+				<article className={style.article}>
+					<h2 className={style.h2}> {remedy.nomSoin} </h2>
 					<figure>
-						<img src={remedy.image} alt={`illustration de ${remedy.nomSoins}`} />
+						<img
+							className={style.image}
+							src={remedy.image}
+							alt={`illustration de ${remedy.nomSoins}`}
+						/>
 					</figure>
-					<p>{remedy.difficulte}</p>
+					<p className={style.p}>Difficulté : {remedy.difficulte}</p>
 				</article>
 			</Link>
-		</section >
+		</section>
 	);
 }
