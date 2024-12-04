@@ -12,10 +12,6 @@ const Recipe = () => {
 		return <p>Loading...</p>;
 	}
 
-	// Vérifier si remedies est null ou undefined
-	if (!remedies) {
-		return <p>Aucune donnée disponible.</p>;
-	}
 
 	// Trouver l'index de la recette correspondante par son id
 	const index = remedies.findIndex((el) => el.id === Number.parseInt(id));
@@ -38,8 +34,10 @@ const Recipe = () => {
 				</div>
 			</div>
 			<div className={style.section}>
-				{recipe.ingredients.map((ingredient, index) => (
-					<div key={index}>
+
+				{recipe.ingredients.map((ingredient) => (
+					<div key={ingredient.id}>
+
 						<img
 							src={ingredient.imageIngredient}
 							alt={ingredient.nomIngredient}
