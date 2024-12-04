@@ -27,35 +27,40 @@ const Recipe = () => {
 	return (
 		<div className={style.contenerRecipe}>
 			<div className={style.section}>
-				<p>info</p>
-				<div>
+				<p className={style.pinfo}>info</p>
+				<div className={style.contenerRemed}>
 					<img src={recipe.image} alt={recipe.nomSoin} className={style.imageRecipe} />
 					<p>{recipe.nomSoin}</p>
 				</div>
 			</div>
 			<div className={style.section}>
-
 				{recipe.ingredients.map((ingredient) => (
-					<div key={ingredient.idIngredient}>
+					<div className={style.ingredientDiv} key={ingredient.idIngredient}>
 						<img
 							className={style.imageIng}
 							src={ingredient.imageIngredient}
 							alt={ingredient.nomIngredient}
 						/>
-						<p>{ingredient.nomIngredient}</p>
-						<p>{ingredient.quantite}</p>
+						<div className={style.divIngredientNom}>
+							<p className={style.pNomTitre}>Nom :</p>
+							<p className={style.ingredientNom}>{ingredient.nomIngredient}</p>
+						</div>
+						<div className={style.pPuantiterTitre}>
+							<p className={style.divingredientQuantiter}>Quantité :</p>
+							<p className={style.ingredientQuantiter}>{ingredient.quantite}</p>
+						</div>
 					</div>
 				))}
 			</div>
-			<div className={style.section}>
+			<div className={`${style.section} ${style.application}`}>
 				<p>Application</p>
 				<div>
-					<p>Préparation</p>
-					<p>{recipe.preparation}</p>
+					<p className={style.pTitre}>Préparation :</p>
+					<p className={style.pdata}>{recipe.preparation}</p>
 				</div>
 				<div>
-					<p>Utilisation</p>
-					<p>{recipe.utilisation}</p>
+					<p className={style.pTitre}>Utilisation :</p>
+					<p className={style.pdata}>{recipe.utilisation}</p>
 				</div>
 			</div>
 			<div>
