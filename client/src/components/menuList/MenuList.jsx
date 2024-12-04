@@ -6,10 +6,7 @@ export default function MenuList({
 	setSelectedPain,
 	setModifieddefaut,
 }) {
-	const { pains, Loading } = useData();
-	if (pains === null || Loading) {
-		return <p>chargement ...</p>;
-	}
+	const { pains } = useData();
 
 	return (
 		<section className={style.container}>
