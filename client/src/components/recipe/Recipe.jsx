@@ -42,7 +42,7 @@ const Recipe = () => {
 			</div>
 			<div className={style.section}>
 				{recipe.ingredients.map((ingredient, index) => (
-					<div key={index}>
+					<div key={ingredient.idIngredient}>
 						<img
 							className={style.imageIng}
 							src={ingredient.imageIngredient}
