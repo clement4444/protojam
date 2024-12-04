@@ -28,7 +28,7 @@ export default function Shop() {
 					</li>
 				));
 		}
-		return <p>choisier votre mal</p>;
+		return <p>Merci d'utiliser le menu déroulant ci-dessus</p>;
 	}
 	return (
 		<div className={style.shopContainer}>
