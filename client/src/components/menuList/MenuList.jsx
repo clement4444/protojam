@@ -34,6 +34,7 @@ export default function MenuList({
 					</select>
 				</label>
 			</form>
+			<p>{pains[0].description}</p>
 		</section>
 	);
 }
