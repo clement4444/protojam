@@ -12,9 +12,10 @@ export default function HomePage() {
 					className={style.bannerImage}
 				/>
 				<div className={style.overlay}>
-					<h1 className={style.bannerTitle}>
-						Bienvenue sur notre site de soins
-					</h1>
+					<h1 className={style.bannerTitle}>Bienvenue.</h1>
+					<p className={style.bannerSubTitle}>
+						Soulage ton mal : trouve le soin adapté
+					</p>
 				</div>
 			</div>
 			<main className={style.main}>
