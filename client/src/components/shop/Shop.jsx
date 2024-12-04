@@ -19,28 +19,29 @@ export default function Shop() {
 			return true;
 		}
 		// Sinon, vérifier si un des "maux" de remedy correspond à selectedPain
-		return elem.maux.some((maux) => maux === parseInt(selectedPain));
+		return elem.maux.some((maux) => maux === Number.parseInt(selectedPain));
 	}
 
 	function afficherCard() {
 		if (modifieddefaut) {
-			return (
-				remedies
-					.filter(filterRemedies) // Filtre les remedies selon selectedPain
-					.map((remedy) => (
-						<li key={remedy.id}>
-							<Article remedy={remedy} />
-						</li>
-					))
-			)
+			return remedies
+				.filter(filterRemedies) // Filtre les remedies selon selectedPain
+				.map((remedy) => (
+					<li key={remedy.id}>
+						<Article remedy={remedy} />
+					</li>
+				));
 		}
-		return (
-			<p>choisier votre mal</p>
-		)
+		return <p>choisier votre mal</p>;
 	}
 	return (
-		<div>
-			<MenuList selectedPain={selectedPain} setSelectedPain={setSelectedPain} setModifieddefaut={setModifieddefaut} />
+		<div className={style.shopContainer}>
+			<MenuList
+				className={style.MenuList}
+				selectedPain={selectedPain}
+				setSelectedPain={setSelectedPain}
+				setModifieddefaut={setModifieddefaut}
+			/>
 			{afficherCard()}
 		</div>
 	);

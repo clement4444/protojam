@@ -1,9 +1,10 @@
 import style from "./recipe.module.css";
-import { useData } from '../../context/ApiContext';
+import { useData } from "../../context/ApiContext";
 import { useParams } from "react-router-dom";
 import ButtonReturn from "../buttonReturn/ButtonReturn";
 
 const Recipe = () => {
+
     const { remedies, Loading } = useData();
     const { id } = useParams();
 
@@ -62,6 +63,7 @@ const Recipe = () => {
             </div>
         </div>
     );
+
 };
 
 export default Recipe;

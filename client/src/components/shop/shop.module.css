@@ -1,56 +1,46 @@
 .shopContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem;
-    background-color: #f9fafb;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.shopContainer:hover {
-    transform: scale(1.02);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+	padding: 2rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: rgb(75 85 99);
 }
 
 .menuList {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 2rem;
 }
 
 .menuList input {
-    width: 50%;
-    padding: 0.5rem;
-    border: 1px solid #d1d5db;
-    border-radius: 0.25rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
+	width: 50%;
+	padding: 0.5rem;
+	border: 1px solid #d1d5db;
+	border-radius: 0.25rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease;
 }
 
 .menuList input:focus {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.articles {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    width: 100%;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .article {
-    background-color: #e0f7fa; /* Couleur de fond uniforme */
-    padding: 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+	background-color: #e0f7fa; /* Couleur de fond uniforme */
+	padding: 1rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s
+		ease;
 }
 
 .article:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: #b2ebf2; /* Couleur de fond lors du survol */
+	transform: translateY(-5px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	background-color: #b2ebf2; /* Couleur de fond lors du survol */
 }
