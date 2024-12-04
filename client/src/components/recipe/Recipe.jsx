@@ -1,6 +1,7 @@
 import style from "./recipe.module.css";
 import { useData } from '../../context/ApiContext';
 import { useParams } from "react-router-dom";
+import ButtonReturn from "../buttonReturn/ButtonReturn";
 
 const Recipe = () => {
     const { remedies, Loading } = useData();
@@ -55,6 +56,9 @@ const Recipe = () => {
                     <p>Utilisation</p>
                     <p>{recipe.utilisation}</p>
                 </div>
+            </div>
+            <div> 
+                <ButtonReturn/>
             </div>
         </div>
     );
