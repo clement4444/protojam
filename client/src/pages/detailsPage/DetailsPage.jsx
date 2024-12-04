@@ -3,7 +3,6 @@ import Recipe from "../../components/recipe/Recipe";
 import Form from "../../components/form/Form";
 import { useData } from "../../context/ApiContext";
 
-
 const DetailsPage = () => {
 	const { remedies, Loading, pains, dataError } = useData();
 
@@ -15,18 +14,17 @@ const DetailsPage = () => {
 		//en cas de chargement des données
 		if (pains === null || remedies === null || Loading) {
 			return (
-				<div className={style.loader} >
-					<div className={style.spinner}></div>
+				<div className={style.loader}>
+					<div className={style.spinner} />
 					<p>chargement ...</p>
-				</div >
-			)
+				</div>
+			);
 		}
-
 		return <Recipe />;
 	}
 
 	return (
-		<div>
+		<div className={style.main}>
 			{afficherRecopie()}
 			<Form />
 		</div>
