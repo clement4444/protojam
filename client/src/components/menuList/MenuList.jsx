@@ -34,7 +34,8 @@ export default function MenuList({
 					</select>
 				</label>
 			</form>
-			<p>{pains[0].description}</p>
+			{/* affiche la description du remed */}
+			{selectedPain !== "" && <p>{pains[pains.findIndex(i => i.idMal === parseInt(selectedPain))].description}</p>}
 		</section>
 	);
 }

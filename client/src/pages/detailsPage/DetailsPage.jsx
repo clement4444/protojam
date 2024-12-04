@@ -1,12 +1,10 @@
-import React from "react";
-import styles from "./detailsPage.module.css";
+import style from "./detailsPage.module.css";
 import Recipe from "../../components/recipe/Recipe";
 import Form from "../../components/form/Form";
 import { useData } from "../../context/ApiContext";
 
 
 export default function DetailsPage() {
-
 	const { remedies, Loading, pains, dataError } = useData();
 
 	function afficherRecopie() {
@@ -17,33 +15,33 @@ export default function DetailsPage() {
 		//en cas de chargement des données
 		if (pains === null || remedies === null || Loading) {
 			return (
-				<div className={style.loader}>
-					<div className={style.spinner} />
+				<div className={style.loader} >
+					<div className={style.spinner}></div>
 					<p>chargement ...</p>
-				</div>
-			);
+				</div >
+			)
 		}
 
-		return (
-			<>
-				<Recipe />
-				<div className={styles.container}>
-					<div className={styles.banner}>
-						<img
-							src="/images/image_2.png"
-							alt="Banner"
-							className={styles.bannerImage}
-						/>
-						<div className={styles.overlay}>
-							<h1 className={styles.bannerTitle}>Votre recette</h1>
-							<h2 className={styles.bannerSubTitle}>a</h2>
-						</div>
-					</div>
-					{afficherRecopie()}
-					<Form />
-				</div>
-			</>
-		);
+		return <Recipe />;
 	}
-}
 
+	return (
+		<div>
+			<div className={style.container}>
+				<div className={style.banner}>
+					<img
+						src="/images/image_2.png"
+						alt="Banner"
+						className={style.bannerImage}
+					/>
+					<div className={style.overlay}>
+						<h1 className={style.bannerTitle}>Votre recette</h1>
+						<h2 className={style.bannerSubTitle}>a</h2>
+					</div>
+				</div>
+				{afficherRecopie()}
+				<Form />
+			</div>
+		</div>
+	);
+};
