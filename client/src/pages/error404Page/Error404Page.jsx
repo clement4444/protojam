@@ -12,7 +12,7 @@ const Error404Page = () => {
                     <div className={style.pilleBout} />
                     <div className={style.pilleCharge} />
                 </div>
-                <p>404 - Page non trouvée. Veuillez vérifier l'URL ou appuyer sur la pile pour revenir à l'accueil</p>
+                <p>404 - Page non trouvée. Veuillez vérifier l'URL ou appuyer sur la pile pour recharger l'accueil</p>
             </div>
         </div>
     );
