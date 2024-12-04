@@ -5,13 +5,9 @@ import { useState } from "react";
 import { useData } from "../../context/ApiContext";
 
 export default function Shop() {
-	const { remedies, Loading } = useData();
+	const { remedies } = useData();
 	const [selectedPain, setSelectedPain] = useState("");
 	const [modifieddefaut, setModifieddefaut] = useState(false);
-
-	if (remedies === null || Loading) {
-		return <p>chargement...</p>;
-	}
 
 	function filterRemedies(elem) {
 		if (selectedPain === "") {
