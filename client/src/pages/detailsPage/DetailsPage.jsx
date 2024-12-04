@@ -4,7 +4,7 @@ import Form from "../../components/form/Form";
 import { useData } from "../../context/ApiContext";
 
 
-const DetailsPage = () => {
+export default function DetailsPage() {
 	const { remedies, Loading, pains, dataError } = useData();
 
 	function afficherRecopie() {
@@ -45,5 +45,3 @@ const DetailsPage = () => {
 		</div>
 	);
 };
-
-export default DetailsPage;
