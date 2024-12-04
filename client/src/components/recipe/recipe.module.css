@@ -10,15 +10,124 @@
 
 .section {
 	background-color: white;
+	width: 65%;
 	border-radius: 0.5rem;
-	padding: 1rem;
+	padding: 3em;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
+/* div info */
+.pinfo {
+	font-size: 6em;
+	color: black;
+}
+
+.contenerRemed {
+	background-color: rgb(75 85 99);
+	width: 80%;
+	padding: 1.2em 2em 1em 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 0.7em;
+	border-radius: 30px;
+}
+
+.contenerRemed img {
+	border-radius: 50%;
+	width: 40%;
+}
+
+.contenerRemed p {
+	text-align: center;
+	color: white;
+	margin-top: 0.4em;
+	font-size: 4em;
+}
+
+/* image du médicament */
 .imageRecipe {
 	width: 100px;
 }
 
+/* div des chaque ingrédient */
+.ingredientDiv {
+	background-color: rgb(75 85 99);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1em;
+	border-radius: 30px;
+	padding: 1em 3em 1em 1.3em;
+	font-size: 1.8em;
+}
+
+/* pour le nom de ingrédient */
+.divIngredientNom {
+	display: flex;
+	flex-direction: column;
+}
+
+.pNomTitre {
+	color: white;
+}
+
+
+.ingredientNom {
+	color: white;
+}
+
+/* pour la quantiter de ingrédient */
+.divingredientQuantiter {
+	display: flex;
+	flex-direction: column;
+}
+
+.pPuantiterTitre {
+	color: white;
+}
+
+
+.ingredientQuantiter {
+	color: white;
+	text-align: center;
+}
+
+/* image de ingrédient */
 .imageIng {
-	width: 100px;
+	width: 20%;
+	border-radius: 50%;
+}
+
+/* -------------------------application------------------------------------ */
+
+/* div application */
+.application {}
+
+/* titre de application */
+.application>p {
+	font-size: 6em;
+	color: black;
+}
+
+.application div {
+	background-color: rgb(75 85 99);
+	border-radius: 30px;
+	padding: 1.5em;
+	width: 90%;
+	margin-top: 1.5em;
+}
+
+.application div .pTitre {
+	color: white;
+	font-size: 3em;
+}
+
+.application div .pdata {
+	margin-top: 0.7em;
+	color: white;
+	font-size: 2em;
 }

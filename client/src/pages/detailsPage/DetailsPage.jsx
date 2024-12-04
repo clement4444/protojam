@@ -3,7 +3,6 @@ import Recipe from "../../components/recipe/Recipe";
 import Form from "../../components/form/Form";
 import { useData } from "../../context/ApiContext";
 
-
 export default function DetailsPage() {
 	const { remedies, Loading, pains, dataError } = useData();
 
@@ -15,11 +14,11 @@ export default function DetailsPage() {
 		//en cas de chargement des données
 		if (pains === null || remedies === null || Loading) {
 			return (
-				<div className={style.loader} >
+				<div className={style.loader}>
 					<div className={style.spinner}></div>
 					<p>chargement ...</p>
-				</div >
-			)
+				</div>
+			);
 		}
 
 		return <Recipe />;
@@ -40,8 +39,10 @@ export default function DetailsPage() {
 					</div>
 				</div>
 				{afficherRecopie()}
-				<Form />
+				<div className={style.main}>
+					<Form />
+				</div>
 			</div>
 		</div>
 	);
-};
+}

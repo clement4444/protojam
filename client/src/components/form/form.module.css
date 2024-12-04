@@ -9,6 +9,9 @@
 	height: 50%;
 	margin: 0 auto;
 }
+.invitation {
+	padding: 1.5rem;
+}
 .container,
 h2 {
 	padding: 2rem;
