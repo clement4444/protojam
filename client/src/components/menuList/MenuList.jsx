@@ -1,12 +1,41 @@
-import style from "./menuList.module.css"
+import style from "./menuList.module.css";
+import { useData } from "../../context/ApiContext";
 
+export default function MenuList({
+	selectedPain,
+	setSelectedPain,
+	setModifieddefaut,
+}) {
+	const { pains } = useData();
 
-const MenuList = () => {
-    return (
-        <div>
-
-        </div>
-    );
-};
-
-export default MenuList;
+	return (
+		<section className={style.container}>
+			<h1>Ton mal, ton soin : sélectionne et découvre !</h1>
+			<form className={style.menuList}>
+				<label htmlFor="pain-selector">
+					{" "}
+					<select
+						id="pain-selector"
+						value={selectedPain}
+						onChange={(event) => {
+							setSelectedPain(event.target.value);
+							setModifieddefaut(true);
+						}}
+					>
+						<option value="" disabled>
+							{" "}
+						</option>
+						<option value="">tout</option>
+						{pains.map((pain) => (
+							<option value={pain.idMal} key={pain.idMal}>
+								{pain.nomMal}
+							</option>
+						))}
+					</select>
+				</label>
+			</form>
+			{/* affiche la description du remed */}
+			{selectedPain !== "" && <p>{pains[pains.findIndex(i => i.idMal === parseInt(selectedPain))].description}</p>}
+		</section>
+	);
+}

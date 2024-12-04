@@ -1,0 +1,121 @@
+[
+    {
+        "idIngredient": 5001,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Aloe Vera sauvage",
+        "description": "Plante aux propriétés apaisantes, utilisée pour traiter les brûlures et les irritations de la peau.",
+        "localisation": "Forêt tropicale abandonnée, proche de l'ancien village côtier"
+    },
+    {
+        "idIngredient": 5002,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Eau pure",
+        "description": "Eau filtrée, nécessaire pour la préparation de plusieurs soins.",
+        "localisation": "Sources souterraines dans les anciennes villes ou rivières nettoyées par des purificateurs d'eau artisanaux"
+    },
+    {
+        "idIngredient": 5003,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Feuilles de menthe",
+        "description": "Feuilles de menthe, connues pour leurs propriétés rafraîchissantes et calmantes, utilisées pour traiter les contusions.",
+        "localisation": "Jardin communautaire d'une enclave de survivants, ou dans des potagers abandonnés"
+    },
+    {
+        "idIngredient": 5004,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Glaçons",
+        "description": "Morceaux de glace, utilisés pour soulager la douleur des contusions et brûlures.",
+        "localisation": "Ancien réfrigérateur d'un supermarché en ruine ou générateurs de froid artisanaux fabriqués par les survivants"
+    },
+    {
+        "idIngredient": 5005,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Charbon actif",
+        "description": "Substance utilisée pour purifier et éliminer les toxines, très utile après une exposition aux radiations.",
+        "localisation": "Ancien laboratoire pharmaceutique ou pharmacie d'une ville dévastée"
+    },
+    {
+        "idIngredient": 5006,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Eau fraîche",
+        "description": "Eau fraîche, indispensable pour traiter les coups de chaleur et la déshydratation.",
+        "localisation": "Ruisseaux des montagnes dévastées ou pompes manuelles installées dans les camps de survivants"
+    },
+    {
+        "idIngredient": 5007,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Chiffon propre",
+        "description": "Tissu de coton ou de lin, utilisé pour les compresses froides ou pour désinfecter les blessures.",
+        "localisation": "Marché noir de vêtements dans les ruines d'une vieille ville ou récupéré de bâtiments abandonnés"
+    },
+    {
+        "idIngredient": 5008,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Alcool de désinfection",
+        "description": "Liquide utilisé pour nettoyer les plaies et éviter les infections graves.",
+        "localisation": "Pharmacies en ruine ou sur les étagères de laboratoires abandonnés"
+    },
+    {
+        "idIngredient": 5009,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Bandage propre",
+        "description": "Bandage utilisé pour couvrir et protéger les plaies ouvertes.",
+        "localisation": "Ancien hôpital militaire ou clinique abandonnée"
+    },
+    {
+        "idIngredient": 5010,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Pansement adhésif",
+        "description": "Pansement autocollant utilisé pour fermer les petites coupures et éviter la contamination.",
+        "localisation": "Supermarché abandonné ou échoppes de guérisseurs post-apocalyptiques"
+    },
+    {
+        "idIngredient": 5011,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Alcool",
+        "description": "Alcool pur utilisé pour désinfecter les plaies et prévenir l'infection.",
+        "localisation": "Distillerie abandonnée ou marché noir des zones urbaines"
+    },
+    {
+        "idIngredient": 5012,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Huile d'olive",
+        "description": "Huile extraite des olives, utilisée pour les crèmes apaisantes contre les irritations cutanées.",
+        "localisation": "Ancien verger dans une zone de culture en friche ou dans des fermes abandonnées"
+    },
+    {
+        "idIngredient": 5013,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Cire d'abeille",
+        "description": "Cire produite par les abeilles, utilisée dans les crèmes et pommades pour traiter les éruptions cutanées.",
+        "localisation": "Ruches en ruine dans les anciens jardins des villes dévastées"
+    },
+    {
+        "idIngredient": 5014,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Ail",
+        "description": "Plante médicinale avec des propriétés antibactériennes, utilisée pour prévenir et traiter les infections.",
+        "localisation": "Jardin de survivants dans un bunker ou champ abandonné près des zones de culture"
+    },
+    {
+        "idIngredient": 5015,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Vinaigre de cidre",
+        "description": "Vinaigre utilisé pour purifier et désinfecter les plaies, ainsi que pour soulager les infections mineures.",
+        "localisation": "Supermarché en ruine ou ferme ancienne abandonnée"
+    },
+    {
+        "idIngredient": 5016,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Sucre",
+        "description": "Produit utilisé pour préparer des solutions sucrées pour lutter contre la déshydratation.",
+        "localisation": "Supermarchés abandonnés ou stocks de nourriture dans les camps de réfugiés"
+    },
+    {
+        "idIngredient": 5017,
+        "imageIngredient": "https://picsum.photos/400",
+        "nomIngredient": "Sel",
+        "description": "Produit essentiel pour réhydrater et équilibrer les électrolytes après une déshydratation.",
+        "localisation": "Anciennes mines de sel ou dépôts commerciaux dans les régions désertiques"
+    }
+]

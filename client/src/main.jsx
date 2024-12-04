@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/reserve",
+    path: "/details/:id",
     element: <DetailsPage />,
   },
   {

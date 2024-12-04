@@ -1,0 +1,47 @@
+.Solution {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(108, 124, 145, 0.459);
+	border-radius: 0.5rem;
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+}
+.container,
+h2 {
+	padding: 2rem;
+	text-align: center;
+}
+textarea {
+	width: 99%;
+	height: 4em;
+	margin-top: 1em;
+	border-radius: 0.4em;
+}
+input {
+	width: 20em;
+	height: 2em;
+	margin-top: 1em;
+	border-radius: 0.4em;
+}
+button {
+	width: 10em;
+	height: 2em;
+	margin-top: 1em;
+	border-radius: 0.5em;
+	background-color: #f0f0f0;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+button:hover {
+	background-color: rgba(108, 124, 145, 0.459);
+}
+
+@media screen and (max-width: 768px) {
+	.Solution {
+		width: 100%;
+		text-align: center;
+	}
+}

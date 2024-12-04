@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+	padding: 1rem;
+	border-radius: 0.5rem;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+.menuList {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
