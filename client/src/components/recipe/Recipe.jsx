@@ -28,14 +28,15 @@ const Recipe = () => {
 			<div className={style.section}>
 				<p>info</p>
 				<div>
-					<img src={recipe.image} alt={recipe.nomSoin} />
+					<img src={recipe.image} alt={recipe.nomSoin} className={style.imageRecipe} />
 					<p>{recipe.nomSoin}</p>
 				</div>
 			</div>
 			<div className={style.section}>
 				{recipe.ingredients.map((ingredient) => (
-					<div key={ingredient.id}>
+					<div key={ingredient.idIngredient}>
 						<img
+							className={style.imageIng}
 							src={ingredient.imageIngredient}
 							alt={ingredient.nomIngredient}
 						/>

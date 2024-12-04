@@ -39,12 +39,10 @@ export default function HomePage() {
 					</p>
 				</div>
 			</div>
-			return (
 			<main className={style.main}>
 				{afficherShop()}
 				<Form />
 			</main>
-			);
 		</div>
 	);
 }
