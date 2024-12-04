@@ -53,10 +53,12 @@ const Form = () => {
 	return (
 		<div className={styles.Solution}>
 			<div className="Title">
-				<h2>Formulaire de nouvelle solution</h2>
-				<p>
-					Remplissez le formulaire ci-dessous pour soumettre une nouvelle
-					solution.
+				<h2>Tu connais des remèdes ?</h2>
+				<p className={styles.invitation}>
+					Partage ton savoir en remplissant le formulaire ci-dessous ! Chaque
+					recette peut faire la différence et aider quelqu'un à s'en sortir.
+					Ensemble, on enrichit la base de données et on préserve ce savoir pour
+					la communauté.
 				</p>
 			</div>
 			<div className={styles.container}>
