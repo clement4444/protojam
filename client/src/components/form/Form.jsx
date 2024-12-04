@@ -58,7 +58,8 @@ const Form = () => {
 					Partage ton savoir en remplissant le formulaire ci-dessous ! Chaque
 					recette peut faire la différence et aider quelqu'un à s'en sortir.
 					Ensemble, on enrichit la base de données et on préserve ce savoir pour
-					la communauté.
+					la communauté.<br /><br />
+					Tu peux consulter l'API actuelle via <a href="http://localhost:3310/" target="bank">ce lien</a>.
 				</p>
 			</div>
 			<div className={styles.container}>
