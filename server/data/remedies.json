@@ -1,263 +1,242 @@
 [
-    {
-        "id": 1,
-        "maux": [
-            101,
-            102
-        ],
-        "nomSoin": "Gel apaisant pour brûlures",
-        "image": "https://picsum.photos/500",
-        "difficulte": "facile",
-        "isFavorite": false,
-        "ingredients": [
-            {
-                "idIngredient": 5001,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1 feuille",
-                "nomIngredient": "Aloe Vera sauvage"
-            },
-            {
-                "idIngredient": 5002,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "50 ml",
-                "nomIngredient": "Eau propre"
-            }
-        ],
-        "preparation": "Coupe une feuille d'Aloe Vera pour en extraire le gel. Mélange le gel avec l'eau propre pour obtenir une solution homogène.",
-        "utilisation": "Applique une couche fine sur la brûlure deux fois par jour jusqu'à cicatrisation."
-    },
-    {
-        "id": 2,
-        "maux": [
-            102
-        ],
-        "nomSoin": "Compresses froides pour contusions",
-        "image": "https://picsum.photos/500",
-        "difficulte": "très facile",
-        "isFavorite": false,
-        "ingredients": [
-            {
-                "idIngredient": 5003,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "10 feuilles",
-                "nomIngredient": "Feuilles de menthe"
-            },
-            {
-                "idIngredient": 5004,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1 sachet",
-                "nomIngredient": "Glaçons"
-            }
-        ],
-        "preparation": "Écrase les feuilles de menthe pour libérer leur huile. Ajoute-les aux glaçons dans un tissu propre.",
-        "utilisation": "Pose la compresse froide sur la zone contusionnée pendant 10 minutes. Répète l'application trois fois par jour."
-    },
-    {
-        "id": 3,
-        "maux": [
-            105
-        ],
-        "nomSoin": "Boisson anti-radiation",
-        "image": "https://picsum.photos/500",
-        "difficulte": "facile",
-        "isFavorite": false,
-        "ingredients": [
-            {
-                "idIngredient": 5005,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1 cuillère",
-                "nomIngredient": "Charbon actif"
-            },
-            {
-                "idIngredient": 5002,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1 verre",
-                "nomIngredient": "Eau propre"
-            }
-        ],
-        "preparation": "Verse une cuillère de charbon actif dans un verre d'eau. Mélange vigoureusement pour dissoudre le charbon.",
-        "utilisation": "Bois le mélange immédiatement. Répète une fois par jour pendant trois jours en cas d'exposition légère aux radiations."
-    },
-    {
-        "id": 4,
-        "maux": [
-            104
-        ],
-        "nomSoin": "Serviette humide pour coup de chaleur",
-        "image": "https://picsum.photos/500",
-        "difficulte": "très facile",
-        "isFavorite": false,
-        "ingredients": [
-            {
-                "idIngredient": 5006,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1 bol",
-                "nomIngredient": "Eau fraîche"
-            },
-            {
-                "idIngredient": 5007,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1",
-                "nomIngredient": "Chiffon propre"
-            }
-        ],
-        "preparation": "Trempe le chiffon propre dans l'eau fraîche et essore-le légèrement.",
-        "utilisation": "Passe le chiffon humide sur le front, la nuque et les bras. Répète toutes les 10 minutes jusqu'à amélioration."
-    },
-    {
-        "id": 5,
-        "maux": [
-            106
-        ],
-        "nomSoin": "Nettoyage pour morsures",
-        "image": "https://picsum.photos/500",
-        "difficulte": "demandez l'aide d'un médecin",
-        "isFavorite": false,
-        "ingredients": [
-            {
-                "idIngredient": 5008,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "Quelques gouttes",
-                "nomIngredient": "Alcool de désinfection"
-            },
-            {
-                "idIngredient": 5009,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1",
-                "nomIngredient": "Bandage propre"
-            }
-        ],
-        "preparation": "Verse quelques gouttes d'alcool sur un chiffon propre ou directement sur la plaie. Prépare un bandage propre.",
-        "utilisation": "Nettoie la plaie avec l'alcool, puis applique le bandage. Consulte un médecin si possible pour éviter les infections graves."
-    },
-    {
-        "id": 6,
-        "maux": [
-            103
-        ],
-        "nomSoin": "Pansement pour coupure",
-        "image": "https://picsum.photos/500",
-        "difficulte": "très facile",
-        "isFavorite": false,
-        "ingredients": [
-            {
-                "idIngredient": 5010,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1",
-                "nomIngredient": "Pansement adhésif"
-            },
-            {
-                "idIngredient": 5011,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "Quelques gouttes",
-                "nomIngredient": "Alcool"
-            }
-        ],
-        "preparation": "Nettoie la plaie à l'alcool et sèche-la doucement.",
-        "utilisation": "Place un pansement adhésif sur la coupure et vérifie l'état du pansement après quelques heures."
-    },
-    {
-        "id": 7,
-        "maux": [
-            107
-        ],
-        "nomSoin": "Crème apaisante pour éruption cutanée",
-        "image": "https://picsum.photos/500",
-        "difficulte": "facile",
-        "isFavorite": false,
-        "ingredients": [
-            {
-                "idIngredient": 5012,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1 cuillère",
-                "nomIngredient": "Huile d'olive"
-            },
-            {
-                "idIngredient": 5013,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1 cuillère",
-                "nomIngredient": "Cire d'abeille"
-            }
-        ],
-        "preparation": "Mélange l'huile d'olive et la cire d'abeille dans un petit récipient. Chauffe doucement pour obtenir une pâte crémeuse.",
-        "utilisation": "Applique la crème sur l'éruption cutanée trois fois par jour jusqu'à disparition des symptômes."
-    },
-    {
-        "id": 8,
-        "maux": [
-            108
-        ],
-        "nomSoin": "Antibiotique maison pour infection mineure",
-        "image": "https://picsum.photos/500",
-        "difficulte": "facile",
-        "isFavorite": false,
-        "ingredients": [
-            {
-                "idIngredient": 5014,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "2 gousses",
-                "nomIngredient": "Ail"
-            },
-            {
-                "idIngredient": 5015,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1 cuillère",
-                "nomIngredient": "Vinaigre de cidre"
-            }
-        ],
-        "preparation": "Écrase les gousses d'ail et mélange-les avec le vinaigre de cidre.",
-        "utilisation": "Applique la pâte obtenue sur la plaie infectée deux fois par jour pendant 5 jours."
-    },
-    {
-        "id": 9,
-        "maux": [
-            109
-        ],
-        "nomSoin": "Boisson rafraîchissante pour insolation",
-        "image": "https://picsum.photos/500",
-        "difficulte": "facile",
-        "isFavorite": false,
-        "ingredients": [
-            {
-                "idIngredient": 5016,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1 cuillère",
-                "nomIngredient": "Sucre"
-            },
-            {
-                "idIngredient": 5002,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1 verre",
-                "nomIngredient": "Eau froide"
-            }
-        ],
-        "preparation": "Mélange le sucre dans l'eau froide jusqu'à dissolution complète.",
-        "utilisation": "Bois lentement la boisson pour réhydrater ton corps et réduire la température."
-    },
-    {
-        "id": 10,
-        "maux": [
-            110
-        ],
-        "nomSoin": "Réhydratation pour déshydratation",
-        "image": "https://picsum.photos/500",
-        "difficulte": "très facile",
-        "isFavorite": false,
-        "ingredients": [
-            {
-                "idIngredient": 5017,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1 sachet",
-                "nomIngredient": "Sel"
-            },
-            {
-                "idIngredient": 5002,
-                "imageIngredient": "https://picsum.photos/200",
-                "quantite": "1 litre",
-                "nomIngredient": "Eau potable"
-            }
-        ],
-        "preparation": "Mélange le sel avec l'eau potable.",
-        "utilisation": "Bois cette solution pour réhydrater ton corps après une longue exposition à la chaleur."
-    }
+	{
+		"id": 1,
+		"maux": [101, 102],
+		"nomSoin": "Gel apaisant",
+		"image": "https://img.freepik.com/photos-premium/pot-eau-du-concombre-avocat_1181948-16668.jpg?w=1800",
+		"difficulte": "facile",
+		"isFavorite": false,
+		"ingredients": [
+			{
+				"idIngredient": 5001,
+				"imageIngredient": "https://img.freepik.com/psd-premium/aloe-vera-isole-fond-transparent_943194-11401.jpg?w=1800",
+				"quantite": "1 feuille",
+				"nomIngredient": "Aloe Vera sauvage"
+			},
+			{
+				"idIngredient": 5002,
+				"imageIngredient": "https://img.freepik.com/psd-premium/bouteille-eau-bleue-gouttes-eau-fond-transparent_1205263-229281.jpg?w=1800",
+				"quantite": "50 ml",
+				"nomIngredient": "Eau propre"
+			}
+		],
+		"preparation": "Coupe une feuille d'Aloe Vera pour en extraire le gel. Mélange le gel avec l'eau propre pour obtenir une solution homogène.",
+		"utilisation": "Applique une couche fine sur la brûlure deux fois par jour jusqu'à cicatrisation."
+	},
+	{
+		"id": 2,
+		"maux": [102],
+		"nomSoin": "Compresses froides",
+		"image": "https://img.freepik.com/psd-premium/paquet-glace-fond-transparent_1298385-13825.jpg?w=1800",
+		"difficulte": "très facile",
+		"isFavorite": false,
+		"ingredients": [
+			{
+				"idIngredient": 5003,
+				"imageIngredient": "https://img.freepik.com/psd-gratuit/fleur-menthe-chat-png-isolee-fond-transparent_191095-10848.jpg?t=st=1733304874~exp=1733308474~hmac=4c41ad3e4c25b754416d3570ff35d205e783ba143a20124a98416b751438df8e&w=1800",
+				"quantite": "10 feuilles",
+				"nomIngredient": "Feuilles de menthe"
+			},
+			{
+				"idIngredient": 5004,
+				"imageIngredient": "https://img.freepik.com/psd-gratuit/glace-isolee-fond-transparent_191095-39656.jpg?t=st=1733305456~exp=1733309056~hmac=d9f77e50523068e0c221d85bdd5b42dce37180a5c3372142f03e9c553051546a&w=1800",
+				"quantite": "1 sachet",
+				"nomIngredient": "Glaçons"
+			}
+		],
+		"preparation": "Écrase les feuilles de menthe pour libérer leur huile. Ajoute-les aux glaçons dans un tissu propre.",
+		"utilisation": "Pose la compresse froide sur la zone contusionnée pendant 10 minutes. Répète l'application trois fois par jour."
+	},
+	{
+		"id": 3,
+		"maux": [105],
+		"nomSoin": "Boisson anti-radiation",
+		"image": "https://img.freepik.com/photos-premium/vue-rapprochee-du-liquide-dans-verre_1211661-5117.jpg?w=1800",
+		"difficulte": "facile",
+		"isFavorite": false,
+		"ingredients": [
+			{
+				"idIngredient": 5005,
+				"imageIngredient": "https://img.freepik.com/psd-premium/morceaux-craie-noire-effet-poussiere-volante-isoles-fond-transparent_839035-1862797.jpg?w=1800",
+				"quantite": "1 cuillère",
+				"nomIngredient": "Charbon actif"
+			},
+			{
+				"idIngredient": 5002,
+				"imageIngredient": "https://img.freepik.com/psd-premium/bouteille-eau-bleue-gouttes-eau-fond-transparent_1205263-229281.jpg?w=1800",
+				"quantite": "1 verre",
+				"nomIngredient": "Eau propre"
+			}
+		],
+		"preparation": "Verse une cuillère de charbon actif dans un verre d'eau. Mélange vigoureusement pour dissoudre le charbon.",
+		"utilisation": "Bois le mélange immédiatement. Répète une fois par jour pendant trois jours en cas d'exposition légère aux radiations."
+	},
+	{
+		"id": 4,
+		"maux": [104],
+		"nomSoin": "Serviette humide",
+		"image": "https://img.freepik.com/psd-premium/serviette-mouillee_1064491-7123.jpg?w=1800",
+		"difficulte": "très facile",
+		"isFavorite": false,
+		"ingredients": [
+			{
+				"idIngredient": 5006,
+				"imageIngredient": "https://img.freepik.com/psd-premium/bouteille-eau-bleue-gouttes-eau-fond-transparent_1205263-229281.jpg?w=1800",
+				"quantite": "1 bol",
+				"nomIngredient": "Eau fraîche"
+			},
+			{
+				"idIngredient": 5007,
+				"imageIngredient": "https://img.freepik.com/psd-premium/echarpe-verte-fond-transparent_943194-13855.jpg?w=1800",
+				"quantite": "1",
+				"nomIngredient": "Chiffon propre"
+			}
+		],
+		"preparation": "Trempe le chiffon propre dans l'eau fraîche et essore-le légèrement.",
+		"utilisation": "Passe le chiffon humide sur le front, la nuque et les bras. Répète toutes les 10 minutes jusqu'à amélioration."
+	},
+	{
+		"id": 5,
+		"maux": [106],
+		"nomSoin": "Nettoyage",
+		"image": "https://img.freepik.com/vecteurs-premium/silhouette-noire-du-lavage-mains_961875-201837.jpg?w=1800",
+		"difficulte": "facile",
+		"isFavorite": false,
+		"ingredients": [
+			{
+				"idIngredient": 5008,
+				"imageIngredient": "https://img.freepik.com/psd-gratuit/bouteille-isolee-fond-transparent_191095-25523.jpg?t=st=1733306080~exp=1733309680~hmac=d06149b81632d6f2910851cb6339c5d7b5d4c0719dd808ca2bd097c198ac6f25&w=1800",
+				"quantite": "Quelques gouttes",
+				"nomIngredient": "Alcool de désinfection"
+			},
+			{
+				"idIngredient": 5009,
+				"imageIngredient": "https://img.freepik.com/psd-premium/echarpe-verte-fond-transparent_943194-13855.jpg?w=1800",
+				"quantite": "1",
+				"nomIngredient": "Bandage propre"
+			}
+		],
+		"preparation": "Verse quelques gouttes d'alcool sur un chiffon propre ou directement sur la plaie. Prépare un bandage propre.",
+		"utilisation": "Nettoie la plaie avec l'alcool, puis applique le bandage. Consulte un médecin si possible pour éviter les infections graves."
+	},
+	{
+		"id": 6,
+		"maux": [103],
+		"nomSoin": "Pansement",
+		"image": "https://img.freepik.com/photos-premium/bandes-platre-medical-croise-bandage-adhesif-fond-blanc_252600-16017.jpg?w=1800",
+		"difficulte": "très facile",
+		"isFavorite": false,
+		"ingredients": [
+			{
+				"idIngredient": 5010,
+				"imageIngredient": "https://img.freepik.com/psd-premium/echarpe-verte-fond-transparent_943194-13855.jpg?w=1800",
+				"quantite": "1",
+				"nomIngredient": "Pansement adhésif"
+			},
+			{
+				"idIngredient": 5011,
+				"imageIngredient": "https://img.freepik.com/psd-gratuit/bouteille-isolee-fond-transparent_191095-25523.jpg?t=st=1733306080~exp=1733309680~hmac=d06149b81632d6f2910851cb6339c5d7b5d4c0719dd808ca2bd097c198ac6f25&w=1800",
+				"quantite": "Quelques gouttes",
+				"nomIngredient": "Alcool"
+			}
+		],
+		"preparation": "Nettoie la plaie à l'alcool et sèche-la doucement.",
+		"utilisation": "Place un pansement adhésif sur la coupure et vérifie l'état du pansement après quelques heures."
+	},
+	{
+		"id": 7,
+		"maux": [107],
+		"nomSoin": "Crème apaisante",
+		"image": "https://img.freepik.com/photos-premium/focus-jarre-creme-fond-douce_1154722-1353.jpg?w=1800",
+		"difficulte": "facile",
+		"isFavorite": false,
+		"ingredients": [
+			{
+				"idIngredient": 5012,
+				"imageIngredient": "https://img.freepik.com/psd-premium/moitie-noix-coco-est-versee-huile-fond-blanc_354609-1062.jpg?w=1800",
+				"quantite": "1 cuillère",
+				"nomIngredient": "Huile végétale"
+			},
+			{
+				"idIngredient": 5013,
+				"imageIngredient": "https://img.freepik.com/psd-gratuit/nid-abeille-goutte-miel-isole-fond-transparent_191095-9045.jpg?t=st=1733305727~exp=1733309327~hmac=38fc1b141162ed23f0ed55075eb6947043fb6ad40f96f12380402959b4e08ee1&w=1800",
+				"quantite": "1 cuillère",
+				"nomIngredient": "Cire d'abeille"
+			}
+		],
+		"preparation": "Mélange l'huile d'olive et la cire d'abeille dans un petit récipient. Chauffe doucement pour obtenir une pâte crémeuse.",
+		"utilisation": "Applique la crème sur l'éruption cutanée trois fois par jour jusqu'à disparition des symptômes."
+	},
+	{
+		"id": 8,
+		"maux": [108],
+		"nomSoin": "Antibiotique maison",
+		"image": "https://img.freepik.com/psd-gratuit/kombucha-isole-fond-transparent_191095-32031.jpg?t=st=1733306860~exp=1733310460~hmac=3be81e62e51549f3f09c7d7cfb190abb2c1b3184d00a02b6de58783ef36e9863&w=1800",
+		"difficulte": "facile",
+		"isFavorite": false,
+		"ingredients": [
+			{
+				"idIngredient": 5014,
+				"imageIngredient": "https://img.freepik.com/psd-premium/ail-frais-tranche-isolee-fond-transparent_431965-1271.jpg?w=1800",
+				"quantite": "2 gousses",
+				"nomIngredient": "Ail"
+			},
+			{
+				"idIngredient": 5015,
+				"imageIngredient": "https://img.freepik.com/psd-gratuit/boisson-kombucha-isolee_23-2151264047.jpg?t=st=1733305790~exp=1733309390~hmac=a577a6b4c0fd9247e3a9b5ec395e4b8f2eabca8c17ae876a3f2425c4847eae81&w=1800",
+				"quantite": "1 cuillère",
+				"nomIngredient": "Vinaigre de cidre"
+			}
+		],
+		"preparation": "Écrase les gousses d'ail et mélange-les avec le vinaigre de cidre.",
+		"utilisation": "Applique la pâte obtenue sur la plaie infectée deux fois par jour pendant 5 jours."
+	},
+	{
+		"id": 9,
+		"maux": [109],
+		"nomSoin": "Boisson rafraîchissante",
+		"image": "https://img.freepik.com/psd-gratuit/bouteille-the-glace-isolee-fond-transparent_191095-25617.jpg?t=st=1733306907~exp=1733310507~hmac=bc6d11b05e00f846d5474b2c360861d4634cb1133c1c60d73c27c6a31166d7cb&w=1800",
+		"difficulte": "facile",
+		"isFavorite": false,
+		"ingredients": [
+			{
+				"idIngredient": 5016,
+				"imageIngredient": "https://img.freepik.com/psd-premium/cubes-sucre-isoles-fond-transparent_1092965-11903.jpg?w=1800",
+				"quantite": "1 cuillère",
+				"nomIngredient": "Sucre"
+			},
+			{
+				"idIngredient": 5002,
+				"imageIngredient": "https://img.freepik.com/psd-premium/bouteille-eau-bleue-gouttes-eau-fond-transparent_1205263-229281.jpg?w=1800",
+				"quantite": "1 verre",
+				"nomIngredient": "Eau froide"
+			}
+		],
+		"preparation": "Mélange le sucre dans l'eau froide jusqu'à dissolution complète.",
+		"utilisation": "Bois lentement la boisson pour réhydrater ton corps et réduire la température."
+	},
+	{
+		"id": 10,
+		"maux": [110],
+		"nomSoin": "Réhydratation",
+		"image": "https://img.freepik.com/photos-premium/verre-eau-petites-bulles-au-fond-verre-est-clair-eau-est-calme_1292047-11577.jpg?w=1800",
+		"difficulte": "très facile",
+		"isFavorite": false,
+		"ingredients": [
+			{
+				"idIngredient": 5017,
+				"imageIngredient": "https://img.freepik.com/psd-premium/photo-salt-isole-fond-blanc_1264610-66112.jpg?w=1800",
+				"quantite": "1 sachet",
+				"nomIngredient": "Sel"
+			},
+			{
+				"idIngredient": 5002,
+				"imageIngredient": "https://img.freepik.com/psd-premium/bouteille-eau-bleue-gouttes-eau-fond-transparent_1205263-229281.jpg?w=1800",
+				"quantite": "1 litre",
+				"nomIngredient": "Eau potable"
+			}
+		],
+		"preparation": "Mélange le sel avec l'eau potable.",
+		"utilisation": "Bois cette solution pour réhydrater ton corps après une longue exposition à la chaleur."
+	}
 ]

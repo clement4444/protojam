@@ -17,7 +17,7 @@ const Recipe = () => {
 	}
 
 	// Trouver l'index de la recette correspondante par son id
-	const index = remedies.findIndex((el) => el.id === parseInt(id));
+	const index = remedies.findIndex((el) => el.id === Number.parseInt(id));
 
 	// Si l'index est -1, cela signifie que la recette n'a pas été trouvée
 	if (index === -1) {
