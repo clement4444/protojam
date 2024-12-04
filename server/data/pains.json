@@ -1,0 +1,67 @@
+[
+    {
+        "idMal": 101,
+        "nomMal": "Brûlure",
+        "description": "Lésion de la peau due à la chaleur ou à des produits chimiques."
+    },
+    {
+        "idMal": 102,
+        "nomMal": "Contusion",
+        "description": "Traumatisme causé par un impact physique entraînant douleur et hématome."
+    },
+    {
+        "idMal": 103,
+        "nomMal": "Coupure",
+        "description": "Plaie ouverte causée par un objet tranchant ou une chute."
+    },
+    {
+        "idMal": 104,
+        "nomMal": "Coup de chaleur",
+        "description": "Fatigue intense causée par une exposition prolongée à une chaleur extrême."
+    },
+    {
+        "idMal": 105,
+        "nomMal": "Radiation légère",
+        "description": "Exposition mineure à des radiations provoquant fatigue et nausées."
+    },
+    {
+        "idMal": 106,
+        "nomMal": "Morsure de rongeur",
+        "description": "Blessure potentiellement infectée due à un animal contaminé."
+    },
+    {
+        "idMal": 107,
+        "nomMal": "Eruption cutanée",
+        "description": "Irritation de la peau causée par une plante toxique ou une allergie."
+    },
+    {
+        "idMal": 108,
+        "nomMal": "Infection mineure",
+        "description": "Rougeur et gonflement autour d'une plaie, accompagnés de douleurs."
+    },
+    {
+        "idMal": 109,
+        "nomMal": "Insolation",
+        "description": "Maux de tête et fatigue après une exposition prolongée au soleil."
+    },
+    {
+        "idMal": 110,
+        "nomMal": "Déshydratation",
+        "description": "Manque d'eau dans le corps entraînant étourdissements et sécheresse."
+    },
+    {
+        "idMal": 111,
+        "nomMal": "Froid extrême",
+        "description": "Engourdissement et douleur aux extrémités dues à une exposition prolongée au froid."
+    },
+    {
+        "idMal": 112,
+        "nomMal": "Douleur musculaire",
+        "description": "Courbatures ou crampes dues à un effort physique prolongé."
+    },
+    {
+        "idMal": 113,
+        "nomMal": "Fièvre",
+        "description": "Élévation de la température corporelle associée à des frissons et une fatigue."
+    }
+]
