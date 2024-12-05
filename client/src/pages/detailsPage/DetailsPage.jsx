@@ -35,7 +35,6 @@ export default function DetailsPage() {
 					/>
 					<div className={style.overlay}>
 						<h1 className={style.bannerTitle}>Votre recette</h1>
-						<h2 className={style.bannerSubTitle}>a</h2>
 					</div>
 				</div>
 				{afficherRecopie()}
