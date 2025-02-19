@@ -1,4 +1,4 @@
-import style from "./Article.module.css";
+import style from "./article.module.css";
 import { Link } from "react-router-dom";
 
 export default function Article({ remedy }) {
