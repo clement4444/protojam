@@ -6,7 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 // Import the App component
 import './index.css';
 import App from './App.jsx';
-import DetailsPage from "./pages/DetailsPage/DetailsPage.jsx";
+import DetailsPage from "./pages/detailsPage/DetailsPage.jsx";
 import Error404Page from "./pages/error404Page/Error404Page.jsx";
 import { DataProvider } from "./context/ApiContext.jsx";
 

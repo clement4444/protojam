@@ -1,4 +1,4 @@
-import style from "./Error404Page.module.css";
+import style from "./error404Page.module.css";
 import { Link } from "react-router-dom";
 
 const Error404Page = () => {
