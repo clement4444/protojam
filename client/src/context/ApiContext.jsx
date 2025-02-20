@@ -24,9 +24,9 @@ export const DataProvider = ({ children }) => {
 
         setDataLoading(true);
         try {
-            fetchData("http://localhost:3310/ingredients", setIngredients);
-            fetchData("http://localhost:3310/pains", setPains);
-            fetchData("http://localhost:3310/remedies", setRemedies);
+            fetchData("https://univers-api.clement-fiquet.fr/protojam1/ingredients", setIngredients);
+            fetchData("https://univers-api.clement-fiquet.fr/protojam1/pains", setPains);
+            fetchData("https://univers-api.clement-fiquet.fr/protojam1/remedies", setRemedies);
         } catch (err) {
             setDataError(err.message);
         }
